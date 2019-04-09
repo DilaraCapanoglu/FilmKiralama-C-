@@ -1,0 +1,8 @@
+create table film(film_id serial primary key,film_adi varchar,
+yönetmen varchar, süresi integer, imdb integer);
+ create table kullanıcı(kul_id serial primary key,
+kul_adi varchar, sifre varchar);
+create table musteri(m_id serial primary key,m_adi varchar,
+m_email varchar,
+m_tel varchar,alis date,veris date,kira integer);
+
